@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>COLOR GAME</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+</head>
+<body>
+	<div class="h1">
+  		THE GREAT <br>
+  		<span>RGB</span> <br>
+  		 <span>COLOR GUESSING GAME</span>
+	</div>
+	<!-- <h1>The Great <span>RGB</span> Color Game</h1> -->
+	<div id="header">
+	<span class="play"> NEW COLORS </span>  <span class="retry">     </span> <span class="easy">EASY</span> <span class="hard">HARD</span> 
+	</div>
+	<p> No of attempts: <span class="attempts"> </span><span class="better"> </span></p>
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<audio id="audiotag1" src="E:\New folder (2)\Correct-answer.mp3" preload="auto"></audio>
+	<a href="javascript:play_single_sound();"></a>
+
+	<audio id="audiotag2" src="E:\New folder (2)\Wrong-answer-sound-effect.mp3" preload="auto"></audio>
+	<a href="javascript:play_single_sounds();"></a>
+
+<script type="text/javascript" src="colorgame.js">
+</script>
+
+</body>
+</html>
